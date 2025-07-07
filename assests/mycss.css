@@ -1,0 +1,47 @@
+body {
+padding-left: 11em;
+color: rgb(255, 255, 255);
+background-color:green;
+font-family: Georgia, "Times New Roman", serif;
+ background-repeat: no-repeat;
+ background-size:cover;
+
+}
+
+h1{
+font-family:Helvetica, Geneva, Arial;
+}
+
+li{
+color: red;
+}
+
+ul.navbar{
+position: absolute;
+top: 1em;
+left: 1em;
+width:  9em;
+list-style-type: none;
+padding:0;
+margin:0;	
+}
+ul.navbar li{
+  color:white;  
+background:rgb(22, 10, 127);
+margin: 0.5em 0;
+padding:0.3em;
+border-right: 2em solid rgba(153, 20, 153, 0.84);
+}
+
+ul.navbar a{
+text-decoration: none ;
+color: rgb(218, 15, 133);
+
+}
+a:link{
+color:black;
+}
+
+a:visited{
+color:purple;
+}
